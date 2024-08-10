@@ -1,0 +1,80 @@
+body {
+   max-width: 100%; 
+}
+
+.contactInfo {
+    font: 10pt Arial;
+    text-align: center;
+}
+
+.counter {
+    font: bold 11pt Arial;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.date {
+    text-align: right;
+    display: block;
+    float:right;
+}
+
+em {
+    font: italic 10pt Calibri;
+}
+
+.flex {
+    display: flexbox;
+    flex-direction: vertical;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 15px;
+}
+
+#fullStack {
+    font: bold italic 10pt Calibri;
+}
+
+.head {
+    text-align: center;
+    font: bold 20pt Garamond, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: -10px;
+}
+
+p {
+    font: 10pt Calibri;
+    margin-bottom: -15px;
+}
+
+.sectionHead {
+    text-align: left;
+    font: 16pt Garamond, serif;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.space {
+    padding-left: 6px;
+}
+
+.spacer {
+    display: flex;
+    flex-direction: column;
+}
+
+strong {
+    font: bold 10pt Calibri;
+
+}
+
+.title {
+    padding-top: 5px; 
+}
