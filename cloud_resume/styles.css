@@ -19,6 +19,11 @@ body {
     float:right;
 }
 
+.dark {
+    background-color: #0f0f0f;
+    color: #dddddd;
+}
+
 em {
     font: italic 10pt Calibri;
 }
@@ -42,9 +47,31 @@ em {
     padding-bottom: 5px;
 }
 
+.hFlex {
+    display: flexbox;
+    margin: auto;
+}
+
 hr {
     margin-top: 0px;
     margin-bottom: -10px;
+}
+
+.light {
+    background-color: white;
+}
+
+.modeButton {
+    border-style: solid;
+    border-color: darkgrey;
+    font-size: 8pt;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.modeButton:active {
+    background-color: rgb(72, 70, 80);
 }
 
 p {

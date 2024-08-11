@@ -6,10 +6,13 @@
     <link rel=stylesheet href="styles.css"></style>
 </head>
 <header>
-    <div class="head">Westin R. Smiley</div>
+    <div class="hFlex">
+        <div><button class="modeButton dark" onclick="myFunction()">Light Mode Toggle</button></div>
+        <div class="head">Westin R. Smiley</div>
+    </div>
     <div class="contactInfo">smileywestin@gmail.com · (719) 439-7788 · Colorado Springs, CO</div>
 </header>
-<body>
+<body class="dark">
 <div class="spacer">
     <div class="flex">
         <div class="sectionHead">Education
@@ -88,6 +91,7 @@
         <div class="counter">Couldn't Retrieve Views</div>
     </div> 
     <script src="index.js"></script>
+    <script src="changemode.js"></script>
 </div>
 </body>
 </html>
