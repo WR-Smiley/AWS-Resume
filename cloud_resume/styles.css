@@ -88,6 +88,10 @@ p {
     padding-bottom: 3px;
 }
 
+.smalltext {
+    font-size: 9pt;
+}
+
 .space {
     padding-left: 6px;
 }
