@@ -25,19 +25,19 @@ body {
 }
 
 em {
-    font: italic 10pt Calibri;
+    font: italic 11pt Calibri;
 }
 
 .flex {
     display: flexbox;
     flex-direction: vertical;
     margin: auto;
-    width: 750px;
+    width: 800px;
     padding-bottom: 15px;
 }
 
 #fullStack {
-    font: bold italic 10pt Calibri;
+    font: bold italic 12pt Calibri;
 }
 
 .head {
@@ -64,7 +64,7 @@ hr {
 .modeButton {
     border-style: solid;
     border-color: darkgrey;
-    font-size: 8pt;
+    font-size: 9pt;
     border-radius: 5px;
     margin-top: 5px;
     margin-left: 5px;
@@ -75,13 +75,14 @@ hr {
 }
 
 p {
-    font: 10pt Calibri;
+    font: 10.5pt Calibri;
     margin-bottom: -15px;
+    padding-bottom: 3px;
 }
 
 .sectionHead {
     text-align: left;
-    font: 16pt Garamond, serif;
+    font: 18pt Garamond, serif;
     font-weight: bold;
     padding-left: 3px;
     padding-top: 3px;
@@ -89,7 +90,7 @@ p {
 }
 
 .smalltext {
-    font-size: 9pt;
+    font-size: 10.5pt;
 }
 
 .space {
@@ -102,7 +103,7 @@ p {
 }
 
 strong {
-    font: bold 10pt Calibri;
+    font: bold 12pt Calibri;
 
 }
 
